@@ -1,11 +1,5 @@
 import { Board, search } from 'exesjs';
 
-function randomMove(b) {
-  const moves = b.moves;
-  const move = moves[Math.floor(Math.random() * moves.length)];
-  b.move(move);
-}
-
 for (let i = 0; i < 10; i++) {
   console.time('game');
   const board = new Board({
