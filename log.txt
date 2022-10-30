@@ -1,0 +1,55 @@
+elementary OS 6.1:
+  NODEJS:
+    game: 2.372s
+    game: 2.963s
+    game: 1.845s
+    game: 3.067s
+    game: 5.448s
+    game: 6.176s
+    game: 1.561s
+    game: 2.593s
+    game: 1.514s
+    game: 2.434s
+    node index.js  30.08s user 0.05s system 100% cpu 30.029 total
+
+  BUN:
+    [5.28s] game
+    [7.16s] game
+    [7.65s] game
+    [9.20s] game
+    [16.72s] game
+    [5.67s] game
+    [8.17s] game
+    [9.73s] game
+    [9.32s] game
+    [8.84s] game
+    bun index.js  88.00s user 0.15s system 100% cpu 1:27.76 total
+
+
+
+macOS Monterey 12.5:
+  NODEJS:
+    game: 3.601s
+    game: 7.024s
+    game: 4.469s
+    game: 6.390s
+    game: 6.889s
+    game: 5.371s
+    game: 2.786s
+    game: 3.324s
+    game: 1.901s
+    game: 4.944s
+    node index.js  44.52s user 1.02s system 96% cpu 47.337 total
+
+  BUN:
+    [8.10s] game
+    [12.46s] game
+    [7.34s] game
+    [11.05s] game
+    [6.68s] game
+    [7.53s] game
+    [10.47s] game
+    [8.93s] game
+    [7.46s] game
+    [3.20s] game
+    bun index.js  81.48s user 1.53s system 99% cpu 1:23.26 total
